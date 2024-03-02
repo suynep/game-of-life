@@ -16,3 +16,6 @@ Create two classes, one for the Global Grid (~class Grid~) and one for the indiv
 
 *** A Better Approach
 + eager to know
+
+
+![](https://github.com/suynep/game-of-life/blob/main/assets/game-of-life.gif)
