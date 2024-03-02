@@ -7,7 +7,7 @@ let cellSize = 10;
 function setup() {
 	frameRate(10);
 	
-	createCanvas(400, 400);
+	createCanvas(800, 800);
 	grid = new Grid(width, cellSize);
 
 	for (let i = 0; i < grid.cellNum; i++) {
@@ -22,6 +22,8 @@ function setup() {
 		initArr.push(dArr);
 	}
 	nextArr = initArr; // firstShit
+
+	saveGif('game-of-life', 10);
 }
 
 function checkNeighbors(posx, posy) {
